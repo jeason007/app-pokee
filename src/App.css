@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+.head{width: 100%; height: 40px; background-color:  #0A285F; text-align: left; padding-left: 10px;  box-shadow: 1px 1px 3px black, -1px -1px 3px black;}
+.targetas{width:100%; height: 525px;  background-color: darkred; overflow: auto;  }
+.foto{width: 300px; height: 300px;}
+#card{ width:300px; height:auto; margin-top: 5px; margin-left: 10px; float:left; box-shadow: 1px 1px 3px black, -1px -1px 3px black;   }
+img{width: 100%; width: 250px;}
+.inpu-contenedor{width: 100%; height: 70px; background-color:darkred; padding: 10px 10px; }
+.form{width: 50%;}
+.logo{width: 90px; height: 90px; float: left; margin-left: 60px ; margin-top: 20px; border-radius: 360px;}
+.contenedor-foto{width: 100%; height: 135px; background-color: darkred;}
+.letra{width: 400px; height: 120px; margin-right: 200px; margin-top: 10px;}
+#boton{background-color:darkblue; color: yellow;}
+.logo2{width: 50px; height: 50px; float: left; margin-left: 70px ; margin-top: 70px; border-radius: 360px; box-shadow: 1px 1px 2px black,-1px -1px 2px black;}
+.menu{width: 100%; height: auto; background-color:darkred; padding: 10px 5px;}
+#input{width: 96%; margin-left: 20px; box-shadow: 3px 3px 9px darkblue, -3px -3px 9px darkblue; background-color: rgba(8, 28, 128, 0.412); color:yellowgreen;}
+#caracteristicas{margin-top: 5px; background-color:rgba(0,0,0,0.8); border-radius: 5px; font-family: 'Rubik', sans-serif; ;}
+#title-card{text-align: left; padding: 5px 5px;font-family: 'Special Elite', cursive; padding: 5px 5px;  border-radius: 5px; width: auto; height:30px; color:yellow;}
+.name{ color:yellow; font-size: 18px;}
+#imgh{background-color:rgb(255, 204, 0);}
+#card_body{background-color: #0A285F;}
+#cont{border-radius: 10px;}
+#es{color: yellow;}
+.pie-de-pagina{color:red;}
+#image-card{width: 300px; height: auto; margin-top: 5px; box-shadow: 1px 1px 3px black,-1px -1px 3px black;}
+#title-card{background-color: rgb(255, 204, 0); width: 145px; padding: 5px 10px; color:darkblue;}
+.id{position: absolute; right: 5px; top:5px; padding:5px 5px; background-color: darkred; color:yellow; border-radius: 5px; }
+#modal{width: 100%; height: 500px; overflow: auto; background-color:darkred;}
+#elemento-foto{width: 100%; height: 200px;}
+.modal-header{background-color: darkblue ; color:aqua;}
+.buscar{font-size: 13px;}
+/*adapdable a dispositivos.....*/
+
+@media only screen and (max-width: 880px) {
+  .letra{width: 300px; height: 100px; margin-right: 10px; margin-top: 10px; float: right;}
+}
+@media only screen and (max-width: 466px) {
+  .letra{width: 200px; height: 50px; margin-right: 10px; margin-top: 20px; float: right;}
+}
+
+@media only screen and (max-width: 596px) {
+  .logo{width: 90px; height: 90px; float: left; margin-left: 5px ; margin-top: 20px; border-radius: 360px;}
+  .logo2{width: 50px; height: 50px; float: left; margin-left: 10px ; margin-top: 70px; border-radius: 360px; box-shadow: 1px 1px 2px black,-1px -1px 2px black;}
+  
+}
+
+@media only screen and (max-width: 378px) {
+  .letra{width: 300px; height: 150px; margin-right: 10px; margin-top: 5px; float: right;}
+  .logo{width: 50px; height:50px;}
+  .letra{width: 150px; height: 50px; margin-right: 10px; margin-top: 50px; float: right;}
+}
+
+@media only screen and (max-width: 550px) {
+  #input{width: 80%; margin-left: 30px; box-shadow: 3px 3px 9px darkblue, -3px -3px 9px darkblue; background-color: rgba(8, 28, 128, 0.412); color:yellowgreen;}
+}
+
+
